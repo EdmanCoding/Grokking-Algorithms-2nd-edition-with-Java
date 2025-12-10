@@ -29,7 +29,7 @@ public class DijkstraAlgorithm {
         cEdges.put("FIN", 3);
         graph.put("C", cEdges);
 
-        // Add edges from C
+        // Add edges from D
         Map<String, Integer> dEdges = new HashMap<>();
         dEdges.put("FIN", 1);
         graph.put("D", dEdges);
